@@ -572,7 +572,7 @@ function App() {
         alarmAudioRef.current.currentTime = 0;
       }
 
-      const audio = new Audio("/alarm.wav");
+      const audio = new Audio("./alarm.wav");
       audio.loop = true;
       audio.volume = 0.85;
 
