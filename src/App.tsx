@@ -166,6 +166,9 @@ function App() {
       q.includes("who created circuit") ||
       q.includes("who created you") ||
       q.includes("who built you") ||
+      q.includes("tereko kisne banaya") ||
+      q.includes("tujhe kisne banaya") ||
+      q.includes("kisne banaya tujhe") ||
       q.includes("who made circuit") ||
       q.includes("who owns circuit") ||
       q.includes("creator of circuit") ||
@@ -878,7 +881,7 @@ function App() {
     }
     if (isCreatorQuestion(q)) {
       const creatorAnswer =
-        "Subramanyam Panda is the creator and owner of Circuit AI. He built Circuit as a futuristic AI assistant with multi-agent support, voice interaction, Pexels image cards, music controls, chat memory, and a frosted glass interface.";
+        "Subramanyam Panda is the creator and owner of Circuit AI. He built Circuit as a futuristic AI assistant with multi-agent support, voice interaction,Reminder ,Pexels image cards, music controls, chat memory, and a frosted glass interface.";
 
       const creatorImages = getRandomCreatorImages(8);
 
