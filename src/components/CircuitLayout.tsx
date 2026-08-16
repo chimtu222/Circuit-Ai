@@ -155,7 +155,7 @@ function CircuitLayout({
                         }}
                     >
                         <img
-                            src="/icon3.png"
+                            src="./icon3.png"
                             alt="Circuit logo"
                             style={{
                                 width: "100%",
