@@ -421,7 +421,7 @@ function App() {
       }
 
       if (errorText.includes("YOUTUBE_API_KEY_MISSING")) {
-        const msg = "YouTube API key missing hai bhidu. .env.local check kar.";
+        const msg = "YouTube API key missing hai bhidu.thoda check kar.";
 
         setAnswer(msg);
         saveHistory(text, msg);
