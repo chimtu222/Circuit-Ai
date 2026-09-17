@@ -330,6 +330,7 @@ function App() {
       q.includes("song chala") ||
       q.includes("music chala") ||
       q.includes("baja") ||
+      q.includes("hello play") ||
       q.includes("chala de")
     );
   }
