@@ -195,7 +195,7 @@ function MusicPlayerBar({
         }}
         aria-label="Play pause"
       >
-        {isPlaying ? "⏸" : "▶"}
+        {isPlaying ? "❚❚" : "▶"}
       </button>
 
       <button

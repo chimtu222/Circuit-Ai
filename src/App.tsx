@@ -1506,7 +1506,7 @@ function App() {
           aria-label="Pause or resume speech"
           style={controlButtonStyle}
         >
-          {isSpeechPaused ? "▶" : "⏸"}
+          {isSpeechPaused ? "▶" : "❚❚"}
         </button>
       </div>
 
